@@ -1,0 +1,177 @@
+body{
+	
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	background-color: #5865f2;
+	
+
+}
+
+
+.navbar-nav { 
+    width: 100%;
+    text-align: center;
+    
+}
+
+.navbar-nav li {
+      display: inline-block;
+      float: none;
+      color: white;
+}
+
+.navbar-nav li a {
+      
+        padding-left: 50px;
+        padding-right: 50px;
+        color: white;
+            font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+
+    text-decoration: none;
+
+}
+
+.navbar-nav li a:hover {
+      
+        text-decoration: underline;
+}
+
+.btn-custom{
+
+
+ 	color: white;
+ 	border-radius: 500px;
+ 	-webkit-border-radius: 500px;
+ 	-moz-border-radius:  500px;
+ 	text-transform: uppercase;
+ 	transition: background 0.4s, color 0.4s;
+ 	padding: 10px 15px;
+ }
+
+  .btn-branco{
+ 	color:black;
+ 	background-color: white;
+ 	margin: 10px 15px;
+ }
+
+ .btn-branco:hover{
+ 	background-color: white;
+ 	color: #5865f2;
+ 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+h1{
+	font-weight: 900px;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+
+}
+
+
+.capa{
+
+	text-align: center;
+}
+
+#home h1{
+	font-weight: 900px;
+	letter-spacing: -0.05em;
+	margin-top: -160px;
+	color: white;
+	font-size: 4em;
+
+
+}
+
+#home p{
+	color: white;
+	text-align: center;
+
+}
+
+.btn-preto{
+ 	background: black;
+ 	color: white;
+ 	margin: 10px 15px;
+ }
+
+ .btn-preto:hover{
+ 	background: #23272a;
+ 	color: white;
+ 	
+ }
+
+section#home{
+
+	background-image: url(../img/fundo1.svg);
+}
+
+section#encontrar{
+
+	background-color:#f6f6f6;
+}
+
+section#tecnologia{
+
+	background-color:#f6f6f6;
+
+}
+
+.btn-azul{
+ 	background: #5865f2;
+ 	color: white;
+ 	margin: 10px 15px;
+ }
+
+ .btn-azul:hover{
+ 	
+ 	color: white;
+ 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 	
+ }
+
+  footer{
+ 	background: #23272a;
+ 	padding: 50px 0px 20px 0px;
+ 	position: relative;
+ }
+
+ footer h4{
+
+ 	color: #5865f2;
+ 	font-size: 0.8em;
+ 	
+ }
+
+ footer .navbar-nav a{
+
+ 	color: white;
+ 	font-size: 0.8em;
+ 	text-align: justify;
+ }
+
+ footer .navbar-nav a:hover{
+
+ 	color: #9bf0e1;
+ 	text-decoration: none;
+ }
+ footer ul{
+
+ 	list-style: none;
+ }
+
+  footer ul li{
+
+ 	float: right;
+ 	margin: 0 5px;
+ }
+
+
